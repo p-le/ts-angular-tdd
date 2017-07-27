@@ -8,11 +8,15 @@
     "test": "./node_modules/.bin/karma start"
   },
   "dependencies": {
+    "angular": "^1.6.5",
     "express": "^4.15.3",
     "typescript": "^2.4.2"
   },
   "devDependencies": {
+    "@types/angular": "^1.6.27",
+    "@types/angular-mocks": "^1.5.10",
     "@types/jasmine": "^2.5.53",
+    "angular-mocks": "^1.6.5",
     "html-webpack-plugin": "^2.29.0",
     "jasmine-core": "^2.6.4",
     "karma": "^1.7.0",
