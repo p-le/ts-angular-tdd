@@ -1,0 +1,28 @@
+{
+  "name": "ts-mastering",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "test": "./node_modules/.bin/karma start"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "typescript": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.53",
+    "html-webpack-plugin": "^2.29.0",
+    "jasmine-core": "^2.6.4",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-spec-reporter": "^0.0.31",
+    "karma-typescript": "^3.0.4",
+    "ts-loader": "^2.3.1",
+    "tslint": "^5.5.0",
+    "webpack": "^3.4.0",
+    "webpack-dev-server": "^2.6.1"
+  }
+}
